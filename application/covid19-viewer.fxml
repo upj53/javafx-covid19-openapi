@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" alignment="TOP_CENTER" 
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" 
+	xmlns="http://javafx.com/javafx/15"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.Covid19Controller">
+	<children>
+		<Label alignment="CENTER" text="Covid-19 실시간 누적 추이" prefWidth="1200.0" />
+		<Label fx:id="lineChartLabel" alignment="CENTER" prefWidth="1200.0" />
+		<LineChart fx:id="covidLineChart" prefWidth="700.0" prefHeight="250">
+			<xAxis>
+				<CategoryAxis label="날짜" side="BOTTOM" />
+			</xAxis>
+			<yAxis>
+				<NumberAxis label="사람수(명)" side="LEFT" />
+			</yAxis>
+		</LineChart>
+		<Label alignment="CENTER" text="Covid-19 실시간 최근 10일간 추이" prefWidth="1200.0" />
+		<Label fx:id="barChartLabel" alignment="CENTER"  />
+		<BarChart fx:id="covidBarChart" prefWidth="700.0" prefHeight="250">
+			<xAxis>
+				<CategoryAxis label="날짜" side="BOTTOM" />
+			</xAxis>
+			<yAxis>
+				<NumberAxis label="사람수(명)" side="LEFT" />
+			</yAxis>
+		</BarChart>
+		<TableView fx:id="covidTableView" prefHeight="200.0" prefWidth="200.0">
+			<columns>
+				<TableColumn fx:id="tvcIdx" prefWidth="75.0" text="순번" />
+				<TableColumn fx:id="tvcStateDt" prefWidth="75.0" text="날짜" />
+				<TableColumn fx:id="tvcDecideCnt" prefWidth="100" text="누적 확진자 수" />
+				<TableColumn fx:id="tvcDeathCnt" prefWidth="100" text="누적 사망자 수" />
+				<TableColumn fx:id="tvcClearCnt" prefWidth="125" text="누적 격리해제자 수" />
+				<TableColumn fx:id="tvcTodayDecideCnt" prefWidth="100" text="오늘의 확진자 수" />
+				<TableColumn fx:id="tvcTodayDeathCnt" prefWidth="100" text="오늘의 사망자 수" />
+				<TableColumn fx:id="tvcTodayClearCnt" prefWidth="125" text="오늘의 격리해제자 수" />
+			</columns>
+		</TableView>
+	</children>
+</VBox>
