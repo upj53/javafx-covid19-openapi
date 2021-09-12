@@ -62,29 +62,22 @@ int todayClearCnt; // 오늘 격리해제 수
 
 ## 1-1.개발 설계하기
 [![](http://img.youtube.com/vi/A8QEGHuOBkg/0.jpg)](https://youtu.be/A8QEGHuOBkg)
-https://youtu.be/A8QEGHuOBkg
 
 ## 2-1.FXML 폼 디자인
 [![](http://img.youtube.com/vi/8n8_b-uYwYo/0.jpg)](https://youtu.be/8n8_b-uYwYo)
-https://youtu.be/8n8_b-uYwYo
 
 ## 3.JavaFX 프로그래밍
 ### 3-1.공공데이터 가져오기
 [![](http://img.youtube.com/vi/SfZnU2scOeE/0.jpg)](https://youtu.be/SfZnU2scOeE)
-https://youtu.be/SfZnU2scOeE
 
 ### 3-2.ArrayList로 테이블뷰 읽기 (1)
 [![](http://img.youtube.com/vi/DD2S2M2nP5k/0.jpg)](https://youtu.be/DD2S2M2nP5k)
-https://youtu.be/DD2S2M2nP5k
 
 ### 3-3.ArrayList로 테이블뷰 읽기 (2)
 [![](http://img.youtube.com/vi/FABEV8i8vm8/0.jpg)](https://youtu.be/FABEV8i8vm8)
-https://youtu.be/FABEV8i8vm8
 
 ### 3-4.ArrayList로 테이블뷰 읽기 (2)
 [![](http://img.youtube.com/vi/jQ2omJaFQ8k/0.jpg)](https://youtu.be/jQ2omJaFQ8k)
-https://youtu.be/jQ2omJaFQ8k
 
 ### 3-5.LineChar와 BarChart 그래프 그리기
 [![](http://img.youtube.com/vi/SarMsscneVQ/0.jpg)](https://youtu.be/SarMsscneVQ)
-https://youtu.be/SarMsscneVQ
