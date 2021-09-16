@@ -1,5 +1,7 @@
 # JavaFX OpenAPI 공공데이터를 활용한 COVID-19 실시간 뷰어
 
+![](https://upj53.pe.kr/javafx/covid19-openapi.png)
+
 + [준비파일 다운로드](https://drive.google.com/drive/folders/1m65-OF3zZjNk-P19qwJ8mI8BcTQWxsQv?usp=sharing)
 + [성일정보고등학교](http://sungil-i.kr/)
 + [GitHub](https://github.com/upj53/javafx-covid19-openapi)
