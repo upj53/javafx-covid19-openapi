@@ -76,7 +76,7 @@ int todayClearCnt; // 오늘 격리해제 수
 ### 3-3.ArrayList로 테이블뷰 읽기 (2)
 [![](http://img.youtube.com/vi/FABEV8i8vm8/0.jpg)](https://youtu.be/FABEV8i8vm8)
 
-### 3-4.ArrayList로 테이블뷰 읽기 (2)
+### 3-4.ArrayList로 테이블뷰 읽기 (3)
 [![](http://img.youtube.com/vi/jQ2omJaFQ8k/0.jpg)](https://youtu.be/jQ2omJaFQ8k)
 
 ### 3-5.LineChar와 BarChart 그래프 그리기
